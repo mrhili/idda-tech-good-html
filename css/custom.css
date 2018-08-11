@@ -1,0 +1,212 @@
+@import url('googleFontsCairoArabeFont.css');
+@import url('googleFontsMadaArabeFont.css');
+
+/***********************FONT***********************/
+.cairoArabe{
+  font-family: 'Cairo', sans-serif !important;
+}
+.madaArabe{
+font-family: 'Mada', sans-serif !important;
+}
+ul.cairoArabe a{
+font-family: 'Cairo', sans-serif !important;
+font-weight: normal;
+}
+/*SIZE*/
+.mediumFontSize{
+  font-size: 20px;
+}
+.bold{
+  font-weight: bold;
+}
+/***********************COLOR***********************/
+.myInitialColor{
+  color: #01FF70 !important;
+}
+.myInitialColor:hover{
+  color: #FFDC00 !important;
+}
+.mySecondColor{
+  color: #FFDC00 !important;
+}
+.mySecondColor:hover{
+  color: #01FF70 !important;
+}
+.myThirdColor{
+  color: blue !important;
+}
+.myThirdColor:hover{
+  color: red !important;
+}
+.whiteColor{
+  color: #FFFFFF!important;
+}
+.myGrey{
+  color: #AAAAAA!important;
+}
+
+
+.importantButton{
+  color: #FFDC00 !important;
+}
+.importantButton:hover{
+  color: #ffffff !important;
+}
+header{
+  background: #000000;
+}
+/***********************BACKGROUND***********************/
+.initialColorInTheBackground{
+  background: #01FF70;
+}
+.secondColorInTheBackground{
+  background: #FFDC00;
+}
+.thirdColorInTheBackground{
+  background: blue;
+}
+.whiteBackgroundTRANSPARENT{
+  background: rgba(255, 255, 255, .7);
+}
+.whiteBackgroundFEW-TRANSPARENT{
+  background: rgba(255, 255, 255, .1);
+}
+.greyBackgroundTRANSPARENT{
+  background: rgba(190, 190, 190, .7);
+}
+/***********************PADDING***********************/
+.mediumPadding{
+  padding: 20px;
+}
+/***********************BORDER RADIUS***********************/
+.borderRadius15{
+  border-radius: 15px;
+}
+.borderRadius100{
+  border-radius: 100%;
+}
+.bottomHalfRound{
+  border-radius: 0% 0% 100% 100%;
+}
+/***********************SIZE***********************/
+
+
+/*******************VIDEO***************************/
+
+.headerVideo{
+  max-width: 100%;
+
+  height: auto;
+}
+/******************THEME MODIFICATION**************************/
+.navbar-default .navbar-toggle{
+  border : 1px solid #2ECC40;
+  background-color: #000 !important;
+}
+
+.navbar-toggle span.icon-bar {
+    background-color: #01FF70 !important;
+}
+ul.nav:hover li a.importantButton{
+  color: #aaaaaa !important;
+}
+.header-text>div{
+  margin-top: 70px;
+}
+
+  /********************MAX1200************************/
+  @media (max-width:1200px){
+    .hiddenInDifferentSize{
+      display: none;
+    }
+
+  }
+  /********************MAX992************************/
+  @media (max-width:992px){
+
+
+
+  }
+  /********************MAX786************************/
+  @media(max-width:768px) {
+
+    ul.nav{
+      margin-top: -1px;
+      background-color: rgba(255, 255, 255, .5);
+      border-right: 10px solid rgba(0, 0, 0, .5);
+      border-left: 10px solid rgba(0, 0, 0, .5);
+    }
+
+    li a.page-scroll{
+      color: #000000 !important;
+      text-align: center;
+
+    }
+
+    li a.page-scroll:hover{
+      color: #2ECC40 !important;
+
+
+    }
+    .topHeader{
+      margin-top: 50px;
+    }
+  }
+  /*******************MAX660**********************/
+  @media(max-width:660px){
+
+    .h3ChangeSizeWhenSmallerScreenSize{
+
+    }
+
+    header{
+          height: 1200px !important;
+    }
+
+    
+
+
+  }
+  @media(min-width:660px){
+
+
+  }
+
+  /******************MIN786**********/
+  @media(min-width:768px) {
+    .nav a{
+        padding: 10px 4px !important;
+    }
+    .navbar-default.navbar-shrink {
+        padding: 0;
+        background-color: #fff;
+        border-bottom: 2px solid #2ECC40;
+    }
+    .navbar-default.navbar-shrink .importantButton:hover{
+      color : #01FF70 !important;
+    }
+    header{
+          height: 860px !important;
+    }
+
+
+  }
+
+  @media (min-width:992px){
+
+    .nav a{
+        padding: 10px 15px !important;
+    }
+    header{
+          height: 700px !important;
+    }
+
+  }
+
+
+
+  @media (min-width:1200px){
+          header{
+      height: 746px !important;
+    }
+  }
